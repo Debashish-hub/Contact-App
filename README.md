@@ -1,28 +1,26 @@
-# Getting Started with Create React App
+# A SIMPLE CONTACT APP
 
-npx create-react-app app-name
+## Getting Started with Create React App
+
+`npx create-react-app app-name`
 
 React components (Semantic Ui for CSS) can be installed via  npm:
 
-npm install semantic-ui-react semantic-ui-css
+`npm install semantic-ui-react semantic-ui-css`
 
-After install, import the minified CSS file in your app's entry file:
+After install, import the minified CSS file in your app's entry file [index.js](https://github.com/Debashish-hub/Contact-App/blob/main/src/index.js):
 
-import 'semantic-ui-css/semantic.min.css'
+`import 'semantic-ui-css/semantic.min.css'`
 
-Install uuidv4 to generate uuid
+Install uuidv4 to generate uuid by using following
 
-npm i uuidv4
+`npm i uuidv4`
 
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -30,4 +28,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
